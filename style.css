@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-image: linear-gradient(
+to left,
+rgba(0, 0, 0, 0.1),
+rgba(0, 0, 0, 1)
+),
+url(./img/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+.description-header{
+    text-align: left;
+    margin-left: 200px;
+    padding-top: 200px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+
+}
+.linkbutton{
+    margin-top: 20px;
+    border: 2px  solid tomato;
+    width: 100px;
+    background-color: tomato;
+    border-radius: 3px;
+    height: 30px;
+}
+.linkbutton a{
+    text-decoration: none;
+    font-size: bold;
+    color:white;
+}
+
+.section-2{
+    display: flex;
+    margin: 100px;
+    justify-items: center;
+    justify-content: space-between;
+}
+.section-3{
+    display: flex;
+    margin: 100px;
+    justify-items: center;
+    justify-content: space-between;
+    gap:200px
+}
+.section-4{
+    text-align: center;
+}
+.section-4 p{
+    text-align: center;
+}
+.directhelp{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+margin-left: 20px;
+
+}
+.directhelp img{
+    width: 150px;
+ }
+ .section5{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+    margin-left: 10%;
+ }
+ .section5 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+ }
+ footer{
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: gray;
+ }
